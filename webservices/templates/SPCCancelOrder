@@ -1,0 +1,13 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1x0="http://www.twcable.com/common/types/v1x0" xmlns:v1x2="http://www.twcable.com/soa/types/CancelBillingOrder/v1x2">
+	<soapenv:Body>
+		<v1x2:CancelBillingOrderRequest>
+			<v1x2:SOARequestInfo>
+				<v1x0:DivisionID>XML_ECOMM_DIV_ID</v1x0:DivisionID>
+				<v1x0:SystemID>AAD</v1x0:SystemID>
+			</v1x2:SOARequestInfo>
+			<v1x2:AccountNumber>XML_ECOMM_ACCT_NUM</v1x2:AccountNumber>
+			<v1x2:BillingOrderNumber>XML_ECOMM_ORDER_NUM</v1x2:BillingOrderNumber>
+			<v1x2:BillingOrderCancelCode>XML_ECOMM_CANCEL_CODE</v1x2:BillingOrderCancelCode>
+		</v1x2:CancelBillingOrderRequest>
+	</soapenv:Body>
+</soapenv:Envelope>

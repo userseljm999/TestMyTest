@@ -1,0 +1,19 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+	<soapenv:Body>
+		<search_1>
+			<integratorContext>
+				<requestId>497205937194</requestId>
+				<externalBusinessTransactionId>49720593719</externalBusinessTransactionId>
+				<externalUserName>SOM</externalUserName>
+				<externalTimestamp>2017-12-15T10:53:43-05:00</externalTimestamp>
+			</integratorContext>
+			<orderSearchCriteria>
+				<accountKey>
+					<locationId>XML_ECOMM_DIVISION_ID</locationId>
+					<houseNumber>XML_ECOMM_HOUSE_NUM</houseNumber>
+					<occupantCode>XML_ECOMM_OCCUP_CD</occupantCode>
+				</accountKey>
+			</orderSearchCriteria>
+		</search_1>
+	</soapenv:Body>
+</soapenv:Envelope>

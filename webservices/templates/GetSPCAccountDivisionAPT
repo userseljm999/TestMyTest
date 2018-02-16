@@ -1,0 +1,7 @@
+<getSpcAccountDivisionRequest>
+	<systemID>Gateway</systemID>
+	<streetNumber>XML_ECOMM_STREETNUMBER</streetNumber>
+	<streetName>XML_ECOMM_STREETNAME</streetName>
+	<apartment>XML_ECOMM_APARTMENT</apartment>
+	<zipCode5>XML_ECOMM_ZIPCODE</zipCode5>
+</getSpcAccountDivisionRequest>

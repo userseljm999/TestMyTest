@@ -1,0 +1,107 @@
+
+--------------------------------------------
+SELENIUM AUTOMATED OUTPUT FILE
+--------------------------------------------
+Start Date: 2018-01-29
+Start Time: 15:29:41 PM
+--------------------------------------------
+
+BEGIN TEST CASE SUMMARY
+    App Name     : ECOMMERCE
+    Test ID      : TC497
+    User         : TC497
+    ALM Category : A
+    ALM User ID  : svc_automation
+    Test Type    : ECLIPSEUNIT
+    Environment  : QA1
+    Total Tests  : 1
+
+--------------------------------------------
+GLOBAL PARMS
+--------------------------------------------
+
+Step 1 - PASSED - Set Variable (Name: Debug, Input Value: OFF, Output Value: OFF) - 15:29:41 PM
+Step 2 - PASSED - Set Global Parms (App Name: ECOMMERCE) - 15:29:41 PM
+Step 3 - PASSED - Set Variable (Name: WORKSPACENAME, Input Value: C:\Users\svc_automation\git\ecomm-newframework, Output Value: C:\Users\svc_automation\git\ecomm-newframework) - 15:29:41 PM
+Step 4 - PASSED - Set Variable (Name: WORKSPACENAMEDOUBLESLASHES, Input Value: C:\\Users\\svc_automation\\git\\ecomm-newframework, Output Value: C:\\Users\\svc_automation\\git\\ecomm-newframework) - 15:29:41 PM
+Step 5 - PASSED - Set Variable (Name: WORKSPACENAMEUSER, Input Value: svc_automation, Output Value: svc_automation) - 15:29:41 PM
+
+--------------------------------------------
+ALM PARMS
+--------------------------------------------
+
+Step 6 - PASSED - Set Variable (Name: HPALMURL, Input Value: https://alm.corp.chartercom.com/qcbin, Output Value: https://alm.corp.chartercom.com/qcbin) - 15:29:41 PM
+Step 7 - PASSED - Set Variable (Name: HPALMDomain, Input Value: PORTALS, Output Value: PORTALS) - 15:29:41 PM
+Step 8 - PASSED - Set Variable (Name: HPALMProject, Input Value: ECommerce, Output Value: ECommerce) - 15:29:41 PM
+Step 9 - PASSED - Set Variable (Name: HPALMUsername, Input Value: svc_automation, Output Value: svc_automation) - 15:29:41 PM
+Step 10 - PASSED - Set Variable (Name: HPALMPassword, Input Value: Aut0m@tion, Output Value: Aut0m@tion) - 15:29:41 PM
+Step 11 - PASSED - Set Variable (Name: HPALMTestSet, Input Value: Automated Regression Tests, Output Value: Automated Regression Tests) - 15:29:41 PM
+Step 12 - PASSED - Set Variable (Name: HPALMTestSetFolder, Input Value: Root\Automation\RegressionDevelopment, Output Value: Root\Automation\RegressionDevelopment) - 15:29:42 PM
+Step 13 - PASSED - Set Variable (Name: OUTPUTLOGFILE, Input Value: SELENIUM OUTPUT LOG FILE - TESTID497 - 20180129152941.txt, Output Value: SELENIUM OUTPUT LOG FILE - TESTID497 - 20180129152941.txt) - 15:29:42 PM
+
+--------------------------------------------
+ENVIRONMENT PARMS
+--------------------------------------------
+
+Step 14 - PASSED - Set Variable (Name: ENVEnvironment, Input Value: QA1, Output Value: QA1) - 15:29:42 PM
+Step 15 - PASSED - Set Variable (Name: ENVURL, Input Value: https://qa1.icharter.com/, Output Value: https://qa1.icharter.com/) - 15:29:42 PM
+Step 16 - PASSED - Set Variable (Name: ENVRESIDSRURL, Input Value: https://qa1-directsales.icharter.com/, Output Value: https://qa1-directsales.icharter.com/) - 15:29:42 PM
+Step 17 - PASSED - Set Variable (Name: ENVBAESALESURL, Input Value: https://qa1-baedirectsales.ispectrum.com/, Output Value: https://qa1-baedirectsales.ispectrum.com/) - 15:29:42 PM
+Step 18 - PASSED - Set Variable (Name: ENVRETAILSALESURL, Input Value: https://www.charter-retailportal-test.com/, Output Value: https://www.charter-retailportal-test.com/) - 15:29:42 PM
+Step 19 - PASSED - Set Variable (Name: ENVSPECTRUMURL, Input Value: https://qa1-business.ispectrum.com/, Output Value: https://qa1-business.ispectrum.com/) - 15:29:42 PM
+Step 20 - PASSED - Set Variable (Name: ENVCHARTEROUTLOOK, Input Value: https://outlook.charter.com/owa, Output Value: https://outlook.charter.com/owa) - 15:29:42 PM
+Step 21 - PASSED - Set Variable (Name: ENVSFDCURL, Input Value: https://test.salesforce.com, Output Value: https://test.salesforce.com) - 15:29:42 PM
+Step 22 - PASSED - Set Variable (Name: ENVSFDCUserName, Input Value: svc_automation@chartercom.com.dev2, Output Value: svc_automation@chartercom.com.dev2) - 15:29:42 PM
+Step 23 - PASSED - Set Variable (Name: ENVSFDCPassword, Input Value: Aut0m@tion3, Output Value: Aut0m@tion3) - 15:29:42 PM
+Step 24 - PASSED - Set Variable (Name: ENVSFDCFrameValue, Input Value: 01N39000000LM6N, Output Value: 01N39000000LM6N) - 15:29:42 PM
+Step 25 - PASSED - Set Variable (Name: ENVSFDCAcctPosition, Input Value: 8, Output Value: 8) - 15:29:42 PM
+Step 26 - PASSED - Set Variable (Name: ENVRETAILDEBUGURL, Input Value: https://qa1-retail.icharter.com/output_debug_info.jsp, Output Value: https://qa1-retail.icharter.com/output_debug_info.jsp) - 15:29:42 PM
+Step 27 - PASSED - Set Variable (Name: ENVGetAccountsENDPOINT, Input Value: https://ebs-uat.corp.chartercom.com/csg_cter/2.06/AccountService.asmx, Output Value: https://ebs-uat.corp.chartercom.com/csg_cter/2.06/AccountService.asmx) - 15:29:42 PM
+Step 28 - PASSED - Set Variable (Name: ENVGetAccountsCREDS, Input Value: chtr\svc_tst_automation:H2i1fL9!, Output Value: chtr\svc_tst_automation:H2i1fL9!) - 15:29:42 PM
+Step 29 - PASSED - Set Variable (Name: ENVGetOrdersENDPOINT, Input Value: https://ebs-uat.corp.chartercom.com/csg_cter/2.06/OrderService.asmx, Output Value: https://ebs-uat.corp.chartercom.com/csg_cter/2.06/OrderService.asmx) - 15:29:42 PM
+Step 30 - PASSED - Set Variable (Name: ENVGetOrdersCREDS, Input Value: chtr\svc_tst_automation:H2i1fL9!, Output Value: chtr\svc_tst_automation:H2i1fL9!) - 15:29:42 PM
+Step 31 - PASSED - Set Variable (Name: ENVCancelOrderENDPOINT, Input Value: https://ebs-uat.corp.chartercom.com/csg_cter/2.06/OrderDetailService.asmx, Output Value: https://ebs-uat.corp.chartercom.com/csg_cter/2.06/OrderDetailService.asmx) - 15:29:42 PM
+Step 32 - PASSED - Set Variable (Name: ENVCancelOrderCREDS, Input Value: chtr\svc_tst_automation:H2i1fL9!, Output Value: chtr\svc_tst_automation:H2i1fL9!) - 15:29:42 PM
+Step 33 - PASSED - Set Variable (Name: ENVSBCOMURL, Input Value: https://qa1-sb.ispectrum.com/content/localization?v=1, Output Value: https://qa1-sb.ispectrum.com/content/localization?v=1) - 15:29:42 PM
+Step 34 - PASSED - Set Variable (Name: ENVCPURL, Input Value: https://chtrgwy-qa.corp.chartercom.com/static/pref-comm/current/?accountId=, Output Value: https://chtrgwy-qa.corp.chartercom.com/static/pref-comm/current/?accountId=) - 15:29:42 PM
+Step 35 - PASSED - Set Variable (Name: ENVLFSEMBBURL, Input Value: https://qa1-buy.ispectrum.com/buyflow/buyflow-localization?v=LFOSEMMAX, Output Value: https://qa1-buy.ispectrum.com/buyflow/buyflow-localization?v=LFOSEMMAX) - 15:29:42 PM
+Step 36 - PASSED - Set Variable (Name: ENVLFSEMAGENTURL, Input Value: https://qa1-buy.ispectrum.com/buyflow/buyflow-localization?v=LFOSEMAF, Output Value: https://qa1-buy.ispectrum.com/buyflow/buyflow-localization?v=LFOSEMAF) - 15:29:42 PM
+Step 37 - PASSED - Set Variable (Name: ENVOTMURL, Input Value: https://qa1-otm.ispectrum.com/content/localization/, Output Value: https://qa1-otm.ispectrum.com/content/localization/) - 15:29:42 PM
+Step 38 - PASSED - Set Variable (Name: ENVBUYCDCURL, Input Value: https://qa1-buy.ispectrum.com/buyflow/buyflow-localization?v=ORG, Output Value: https://qa1-buy.ispectrum.com/buyflow/buyflow-localization?v=ORG) - 15:29:42 PM
+Step 39 - PASSED - Set Variable (Name: ENVAEMCDCURL, Input Value: https://spectrum.omega-beta2.mcportals.webapps.rr.com/content/spectrum/residential/en/buyflow-qa1/buyflow-localization.html, Output Value: https://spectrum.omega-beta2.mcportals.webapps.rr.com/content/spectrum/residential/en/buyflow-qa1/buyflow-localization.html) - 15:29:42 PM
+Step 40 - PASSED - Set Variable (Name: ENVAEMSBCOMURL, Input Value: https://spectrumbusiness.omega-beta2.mcportals.webapps.rr.com/buyflow-qa1/localization, Output Value: https://spectrumbusiness.omega-beta2.mcportals.webapps.rr.com/buyflow-qa1/localization) - 15:29:42 PM
+Step 41 - PASSED - Set Variable (Name: ENVCHPUserName, Input Value: CPAUTO01, Output Value: CPAUTO01) - 15:29:42 PM
+Step 42 - PASSED - Set Variable (Name: ENVCHPPassword, Input Value: Aut0m@tion, Output Value: Aut0m@tion) - 15:29:42 PM
+Step 43 - PASSED - Set Variable (Name: ENVCHPDEBUGURL, Input Value: https://qa1-cpartner.ispectrum.com/output_debug_info.jsp, Output Value: https://qa1-cpartner.ispectrum.com/output_debug_info.jsp) - 15:29:42 PM
+Step 44 - PASSED - Set Variable (Name: ENVGetSPCAccountDivisionENDPOINT, Input Value: http://spcqapp01.twcable.com:8100/spectrum-core/services/account/ept/getSpcAccountDivisionV1x0, Output Value: http://spcqapp01.twcable.com:8100/spectrum-core/services/account/ept/getSpcAccountDivisionV1x0) - 15:29:42 PM
+Step 45 - PASSED - Set Variable (Name: ENVGetSPCAccountDivisionCREDS, Input Value: , Output Value: ) - 15:29:42 PM
+Step 46 - PASSED - Set Variable (Name: ENVSPCGetOrderListENDPOINT, Input Value: http://spcqapp01.twcable.com:8100/spectrum-core/services/order/ept/getOrderListV1x0, Output Value: http://spcqapp01.twcable.com:8100/spectrum-core/services/order/ept/getOrderListV1x0) - 15:29:42 PM
+Step 47 - PASSED - Set Variable (Name: ENVSPCGetOrderListCREDS, Input Value: , Output Value: ) - 15:29:42 PM
+Step 48 - PASSED - Set Variable (Name: ENVSPCCancelOrderENDPOINT, Input Value: http://soaqapp02.twcable.com:9085/SOAApp/services/CancelBillingOrderV1x2, Output Value: http://soaqapp02.twcable.com:9085/SOAApp/services/CancelBillingOrderV1x2) - 15:29:42 PM
+Step 49 - PASSED - Set Variable (Name: ENVSPCCancelOrderCREDS, Input Value: , Output Value: ) - 15:29:42 PM
+Step 50 - PASSED - Set Variable (Name: ENVICAPICancelOrderENDPOINT, Input Value: https://icapiqa.twcable.com/icapiws/services/ICAPIOrderPort, Output Value: https://icapiqa.twcable.com/icapiws/services/ICAPIOrderPort) - 15:29:43 PM
+Step 51 - PASSED - Set Variable (Name: ENVICAPICancelOrderCREDS, Input Value: icapiuser:icapiuser1, Output Value: icapiuser:icapiuser1) - 15:29:43 PM
+Step 52 - PASSED - Set Variable (Name: ENVPhantomURL, Input Value: https://phantomfqa.twcable.com/cwf, Output Value: https://phantomfqa.twcable.com/cwf) - 15:29:43 PM
+Step 53 - PASSED - Set Variable (Name: ENVPhantomUserName, Input Value: E675830, Output Value: E675830) - 15:29:43 PM
+Step 54 - PASSED - Set Variable (Name: ENVPhantomPassword, Input Value: Rohitt1234@, Output Value: Rohitt1234@) - 15:29:43 PM
+Step 55 - PASSED - Set Variable (Name: ENVSOMURL, Input Value: https://somleqa.twcable.com/cwf, Output Value: https://somleqa.twcable.com/cwf) - 15:29:43 PM
+Step 56 - PASSED - Set Variable (Name: ENVSOMUserName, Input Value: v343893, Output Value: v343893) - 15:29:43 PM
+Step 57 - PASSED - Set Variable (Name: ENVSOMPassword, Input Value: January@2018, Output Value: January@2018) - 15:29:43 PM
+Step 58 - PASSED - Set Variable (Name: ENVICAPISearchAddressENDPOINT, Input Value: https://icapiqa.twcable.com/icapiws/services/ICAPIAddressPort, Output Value: https://icapiqa.twcable.com/icapiws/services/ICAPIAddressPort) - 15:29:43 PM
+Step 59 - PASSED - Set Variable (Name: ENVICAPISearchAddressCREDS, Input Value: icapiuser:icapiuser1, Output Value: icapiuser:icapiuser1) - 15:29:43 PM
+Step 60 - PASSED - Set Variable (Name: ENVETAILALLCONAURL, Input Value: https://qa1.ispectrum.com/buyflow/buyflow-localization?v=ALLCONA, Output Value: https://qa1.ispectrum.com/buyflow/buyflow-localization?v=ALLCONA) - 15:29:43 PM
+Step 61 - PASSED - Set Variable (Name: ENVETAILCNTRFLDURL, Input Value: https://qa1.ispectrum.com/buyflow/buyflow-localization?v=CNTRFLD, Output Value: https://qa1.ispectrum.com/buyflow/buyflow-localization?v=CNTRFLD) - 15:29:43 PM
+Step 62 - PASSED - Set Variable (Name: ENVETAILCNTRFLDAURL, Input Value: https://qa1.ispectrum.com/buyflow/buyflow-localization?v=CNTRFLDA, Output Value: https://qa1.ispectrum.com/buyflow/buyflow-localization?v=CNTRFLDA) - 15:29:43 PM
+Step 63 - PASSED - Set Variable (Name: ENVETAILDIGLOBEURL, Input Value: https://qa1.ispectrum.com/buyflow/buyflow-localization?v=DIGLOBE, Output Value: https://qa1.ispectrum.com/buyflow/buyflow-localization?v=DIGLOBE) - 15:29:43 PM
+Step 64 - PASSED - Set Variable (Name: ENVETAILDGSONURL, Input Value: https://qa1.ispectrum.com/buyflow/buyflow-localization?v=DIGLOBE, Output Value: https://qa1.ispectrum.com/buyflow/buyflow-localization?v=DIGLOBE) - 15:29:43 PM
+Step 65 - PASSED - Create Environment Variables (Environment: QA1, App: ECOMMERCE) - 15:29:43 PM
+
+--------------------------------------------
+EMAILTO PARMS
+--------------------------------------------
+
+Step 66 - PASSED - Set Variable (Name: emailtoaddresssmokepass, Input Value: , Output Value: ) - 15:29:43 PM
+Step 67 - PASSED - Set Variable (Name: emailtoaddresssmokefail, Input Value: , Output Value: ) - 15:29:43 PM
+Step 68 - PASSED - Set Variable (Name: emailtoaddressregpass, Input Value: , Output Value: ) - 15:29:43 PM
+Step 69 - PASSED - Set Variable (Name: emailtoaddressregfail, Input Value: , Output Value: ) - 15:29:43 PM
+Step 70 - PASSED - Set EmailTO Parms (App Name: ECOMMERCE) - 15:29:43 PM

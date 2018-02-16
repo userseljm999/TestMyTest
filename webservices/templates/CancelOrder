@@ -1,0 +1,27 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ord="http://charter.com/enterprise/billing/csg/orderdetails" xmlns:upd="http://charter.com/enterprise/billing/csg/updateorderdetail">
+	<soapenv:Header>
+		<wsse:Security xmlns:S="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" S:mustUnderstand="1">
+			<wsse:UsernameToken xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:id="UsernameToken-ORbTEPzNsEMDfzrI9sscVA22">
+				<wsse:Username xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">chtr\svc_tst_automation</wsse:Username>
+				<wsse:Password xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">H2i1fL9!</wsse:Password>
+			</wsse:UsernameToken>
+		</wsse:Security>
+	</soapenv:Header>
+	<soapenv:Body>
+		<upd:UpdateOrderDetailRequest>
+			<upd:CsgHeaderInfo>
+				<upd:RoutingArea>XML_ECOMM_ROUTING_AREA</upd:RoutingArea>
+			</upd:CsgHeaderInfo>
+			<upd:CsgRequest>
+				<upd:Order>
+					<upd:OrderId>XML_ECOMM_ORDER_ID</upd:OrderId>
+					<upd:Status>X</upd:Status>
+					<upd:Method>Auto</upd:Method>
+					<upd:Resolution Index="1">
+						<upd:Code>IT</upd:Code>
+					</upd:Resolution>
+				</upd:Order>
+			</upd:CsgRequest>
+		</upd:UpdateOrderDetailRequest>
+	</soapenv:Body>
+</soapenv:Envelope>

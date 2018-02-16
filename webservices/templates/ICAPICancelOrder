@@ -1,0 +1,31 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+	<soapenv:Body>
+		<icapiOrderIntrf:cancel_1 xmlns:icapiOrderIntrf="urn:NetCracker-Interface-ICAPI-Order-WSDL" xmlns:icapiEquip="urn:NetCracker-Interface-ICAPI-Equipment" xmlns:icapiInterface="urn:NetCracker-Interface-ICAPI"
+                                                xmlns:icapiAddress="urn:NetCracker-Interface-ICAPI-Address" xmlns:intrfCommonIML="urn:NetCracker-Interface-CommonIML" xmlns:icapiOrder="urn:NetCracker-Interface-ICAPI-Order" xmlns:icapiFinance="urn:NetCracker-Interface-ICAPI-Finance"
+                                                xmlns:icapiPayment="urn:NetCracker-Interface-ICAPI-Payment" xmlns:icapiCust="urn:NetCracker-Interface-ICAPI-Customer" xmlns:icapiAccount="urn:NetCracker-Interface-ICAPI-Account" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+			<icapiOrder:integratorContext xsi:type="intrfCommonIML:IntegratorContext_1">
+				<intrfCommonIML:requestId>497205937194</intrfCommonIML:requestId>
+				<intrfCommonIML:externalBusinessTransactionId>49720593719</intrfCommonIML:externalBusinessTransactionId>
+				<intrfCommonIML:externalUserName>SOM</intrfCommonIML:externalUserName>
+				<intrfCommonIML:externalTimestamp>2017-11-23T10:53:43-05:00</intrfCommonIML:externalTimestamp>
+				<intrfCommonIML:context xsi:type="intrfCommonIML:ArrayOfNameValuePair_1">
+					<intrfCommonIML:a xsi:type="intrfCommonIML:NameValuePair_1">
+						<intrfCommonIML:name>IcapiClientVersion</intrfCommonIML:name>
+						<intrfCommonIML:value>8.4</intrfCommonIML:value>
+					</intrfCommonIML:a>
+				</intrfCommonIML:context>
+			</icapiOrder:integratorContext>
+			<icapiOrder:order xsi:type="icapiOrder:ChangeOrder_1">
+				<icapiOrder:orderKey xsi:type="icapiOrder:OrderKey_1">
+					<icapiOrder:accountKey xsi:type="icapiCust:AccountKey_1">
+						<icapiCust:locationId>XML_ECOMM_DIV_ID</icapiCust:locationId>
+						<icapiCust:houseNumber>XML_ECOMM_HOUSE_NUM</icapiCust:houseNumber>
+						<icapiCust:occupantCode>XML_ECOMM_OCCUP_CD</icapiCust:occupantCode>
+					</icapiOrder:accountKey>
+					<icapiOrder:orderNumber>XML_ECOMM_ORDER_NUM</icapiOrder:orderNumber>
+				</icapiOrder:orderKey>
+				<icapiOrder:cancellationCode>XML_ECOMM_CANCEL_CODE</icapiOrder:cancellationCode>
+			</icapiOrder:order>
+		</icapiOrderIntrf:cancel_1>
+	</soapenv:Body>
+</soapenv:Envelope>

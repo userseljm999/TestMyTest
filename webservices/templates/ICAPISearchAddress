@@ -1,0 +1,18 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<soapenv:Body>
+		<search_2 xmlns="urn:NetCracker-Interface-ICAPI-Address-WSDL">
+			<ns1:integratorContext xmlns:ns1="urn:NetCracker-Interface-ICAPI-Address">
+				<ns2:externalUserName xmlns:ns2="urn:NetCracker-Interface-CommonIML">ICAPIUSER</ns2:externalUserName>
+			</ns1:integratorContext>
+			<ns3:addressSearchCriteria xmlns:ns3="urn:NetCracker-Interface-ICAPI-Address">
+				<ns3:address xsi:type="ns3:LocationAddress_1">
+					<ns3:streetNumber>XML_ECOMM_STREETNUMBER</ns3:streetNumber>
+					<ns3:streetName>XML_ECOMM_STREETNAME</ns3:streetName>
+					<!--ns3:city>XML_ECOMM_CITY</ns3:city-->
+					<ns3:zipCode>XML_ECOMM_ZIPCODE</ns3:zipCode>
+					<ns3:locationIds>XML_ECOMM_DIVISION_ID</ns3:locationIds>
+				</ns3:address>
+			</ns3:addressSearchCriteria>
+		</search_2>
+	</soapenv:Body>
+</soapenv:Envelope>

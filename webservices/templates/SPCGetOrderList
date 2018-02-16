@@ -1,0 +1,6 @@
+<getOrderListRequest>
+	<systemID>Gateway</systemID>
+	<divisionID>XML_ECOMM_DIV_ID</divisionID>
+	<accountNumber>XML_ECOMM_ACCT_NUM</accountNumber>
+	<orderStatusCode>XML_ECOMM_ORD_STATUS_CD</orderStatusCode>
+</getOrderListRequest>
