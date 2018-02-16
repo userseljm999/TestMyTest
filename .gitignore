@@ -1,12 +1,2 @@
 /target
-/driver
 /.settings
-/bin
-/webservices/runtime
-/logs
-/variables
-.classpath
-/target/test-classes
-/webservices/runtime/requests
-/webservices/runtime/responses
-/screenshots
